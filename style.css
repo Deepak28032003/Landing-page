@@ -1,0 +1,102 @@
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-size: 16px;
+}
+  
+body {
+background-color: #eee;
+color: #a1a1a1;
+font-family: sans-serif;
+}
+
+/* Header start */
+header nav .left{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 50%;
+}
+nav{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: black;
+}
+nav .logo img{
+    width: 6vw;
+    margin: .3vw;
+    border-radius: 50px;
+    margin-left: 1rem;
+    padding: .5rem;
+    background-color: white;
+}
+nav .nav-elements a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+header nav .right{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 50%;
+}
+nav .cart{
+    margin: 1rem;
+    margin-left: 2rem;
+    margin-right: 0rem;
+}
+nav .profile{
+    margin: 1rem;
+}
+/* Search bar start */
+.search {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: white;
+}
+
+.searchInputWrapper {
+position: relative;
+border: none;
+}
+
+.searchInput {
+width: 38vw;
+height: 2.5rem;
+padding: 0 1rem; 
+border-radius: 20px;
+outline: none;
+}
+
+/* hide the placeholder text on focus */
+
+.searchInputIcon {
+position: absolute;
+right: 1vw;
+top: 1.6vw;
+color: #a1a1a1;
+right: 1rem;
+}
+
+
+
+/* Search bar close */
+/* Header close */
+
+/* Banner 1 start */
+.banner{
+    width: 100%;
+    height: auto;
+}
+/* Bannner 1 close */
+.banner .sale img{
+    width: 100%;
+    height: auto;
+}
